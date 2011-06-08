@@ -1,6 +1,6 @@
 This [jQuery][1] plugin originated from smooth transition requirements in the [live][2] module. Earlier that module would do immediate replacement of existing dynamic content/comment preview with the updated preview.
 
-That, however, did not look nice for a so so neat module. B) Neither did fadeOut() and fadeIn() stand good. Since there would be a gap between them i.e. there would be a transition among three items: from Preview 1 to background to Preview 2, unlike transition from Preview 1 to Preview 2.
+That, however, did not look nice for a so so neat module. Neither did fadeOut() and fadeIn() stand good. Since there would be a gap between them i.e. there would be a transition among three items: from Preview 1 to background to Preview 2, unlike transition from Preview 1 to Preview 2.
 
 I found [innerFade][3] quite like the thing I needed, but it would require extra touch since my requirements were dynamic content updating. *Later*, I also discovered the [Cycle][4] plugin.
 
